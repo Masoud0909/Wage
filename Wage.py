@@ -1,3 +1,17 @@
+# an algorithm to calculate the total weekly wages of
+# employees in a company. The following information is entered by the user:
+
+# - the number of employees
+# - For each employee: employee name, the number of hours, and hourly rate.
+
+# Overtime is calculated for any time over 40 hours, and is paid at a rate
+# of 150% of the hourly rate.
+
+# For each employee, the algorithm calculates, then outputs the employee's name, 
+# and salary.
+
+# At the end, the algorithm outputs the overall weekly wages.
+
 numEmployee = int (input ("Enter the number of employees: "))
 total_wage=0  
 #getting employee details
